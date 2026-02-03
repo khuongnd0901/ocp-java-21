@@ -5,6 +5,19 @@
 > ✅ Chỉ ghi rule, bẫy, pattern dễ trượt
 
 ---
+## Chủ đề chính:
+* Handling Date, Time, Text, Numeric and Boolean Values
+* Controlling Program Flow
+* Using Object-Oriented Concepts in Java
+* Handling Exceptions
+* Working with Arrays and Collections
+* Working with Streams and Lambda expressions
+* Packaging and Deploying Java Code
+* Managing Concurrent Code Execution
+* Using Java I/O API
+* Implementing Localization
+
+---
 
 ## 📌 Cách sử dụng file này (rất quan trọng)
 
