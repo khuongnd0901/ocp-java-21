@@ -9,6 +9,164 @@ Cố gắng đậu Oracle Java SE 21 Developer Professional (1Z0-830)
 
 ---
 
+## 🎯 Mục tiêu học
+
+* Đậu chứng chỉ **Oracle Java SE 21 Developer Professional (1Z0-830)**
+* Nắm vững Java hiện đại (17–21): records, sealed, virtual threads
+* Tự tin phỏng vấn **Senior Java Backend Developer**
+
+---
+
+## 🗺️ Visual Roadmap (Tổng quan)
+
+### 🟥 LEVEL 1 – CORE DECISION ZONES (🔥🔥🔥)
+
+* Generics & Collections
+* Concurrency & Virtual Threads
+* Functional / Stream / Optional
+
+### 🟧 LEVEL 2 – CORE LANGUAGE FEATURES (🔥🔥)
+
+* OOP hiện đại (Records, Sealed, Pattern Matching)
+* Exceptions
+
+### 🟨 LEVEL 3 – SUPPORTING TOPICS (🔥)
+
+* Module System
+* Date / Time / IO
+
+### 🟩 LEVEL 4 – LOW PRIORITY (biết là đủ)
+
+* Annotations, Localization, Text Blocks
+
+---
+
+## ✅ Study Checklist
+
+### 🟥 LEVEL 1 – CORE DECISION ZONES
+
+#### ☐ Generics & Collections
+
+* ☐ Generic class & method
+* ☐ Bounded type (`<T extends Number>`)
+* ☐ `List<? extends T>` (Producer – READ)
+* ☐ `List<? super T>` (Consumer – WRITE)
+* ☐ Raw type & type erasure
+* ☐ `List`, `Set`, `Map` behavior
+* ☐ `equals()` / `hashCode()` contract
+* ☐ `Comparator` vs `Comparable`
+* ☐ Immutable vs unmodifiable collection
+
+#### ☐ Concurrency & Virtual Threads
+
+* ☐ Thread lifecycle
+* ☐ `synchronized` vs `volatile`
+* ☐ Atomic classes
+* ☐ Race condition
+* ☐ ExecutorService lifecycle
+* ☐ `submit()` vs `execute()`
+* ☐ `shutdown()` / `awaitTermination()`
+* ☐ Virtual Threads (Java 21)
+* ☐ Platform thread vs Virtual thread
+
+#### ☐ Functional / Stream / Optional
+
+* ☐ Stream creation
+* ☐ Intermediate vs Terminal operations
+* ☐ Lazy evaluation
+* ☐ Stream reuse (❌)
+* ☐ Parallel stream behavior
+* ☐ `Collectors` (grouping, mapping)
+* ☐ `Optional.map` vs `flatMap`
+* ☐ `orElse` vs `orElseGet`
+
+---
+
+### 🟧 LEVEL 2 – CORE LANGUAGE FEATURES
+
+#### ☐ OOP hiện đại (Java 17–21)
+
+* ☐ Inheritance & polymorphism
+* ☐ Access modifiers (`protected` bẫy)
+* ☐ Method overriding rules
+* ☐ Records (canonical / compact constructor)
+* ☐ Auto-generated methods in record
+* ☐ Sealed classes (`permits`)
+* ☐ Pattern matching (scope trong if/switch)
+
+#### ☐ Exceptions
+
+* ☐ Checked vs Unchecked
+* ☐ Override + throws
+* ☐ try-with-resources
+* ☐ Suppressed exceptions
+* ☐ Multi-catch
+
+---
+
+### 🟨 LEVEL 3 – SUPPORTING TOPICS
+
+#### ☐ Module System
+
+* ☐ `module-info.java` syntax
+* ☐ `requires`
+* ☐ `exports`
+* ☐ `opens`
+* ☐ `transitive`
+
+#### ☐ Date / Time / IO
+
+* ☐ `LocalDate`, `LocalDateTime`
+* ☐ `Period` vs `Duration`
+* ☐ Immutability
+* ☐ `Path`
+* ☐ `Files` API
+* ☐ Checked exception trong IO
+
+---
+
+## 🧠 Oracle Exam Mindset – Hay bẫy kiểu gì?
+
+### 🟥 Level 1 – Bẫy tư duy (giết senior)
+
+* Generics: `extends` = đọc, **đừng add**
+* Concurrency: luôn check **lifecycle + visibility**
+* Stream: terminal op = **stream chết**
+
+### 🟧 Level 2 – Bẫy chủ quan
+
+* Record constructor rules
+* Override method + checked exception
+
+### 🟨 Level 3 – Bẫy đọc nhanh
+
+* `exports` vs `opens`
+* `Period` vs `Duration`
+
+> **Câu thần chú:** *Compile được chưa? → Chạy có ổn không? → Có bẫy hành vi không?*
+
+---
+
+## 📆 Weekly Plan (tóm tắt)
+
+* **Week 1:** Exam mindset + roadmap + setup
+* **Week 2:** Generics & Collections
+* **Week 3:** Concurrency & Virtual Threads
+* **Week 4:** Functional / Stream
+* **Week 5:** OOP hiện đại + Exceptions
+* **Week 6:** Modules + Date/Time/IO
+* **Week 7–8:** Enthuware full mock tests
+
+---
+
+## 🧪 Practice Strategy
+
+* Udemy (Andrii Piatakha): học theo topic
+* Enthuware: topic test → full test
+* Ghi lỗi sai vào `ocp-notes.md`
+
+---
+
 ## 🎯 Chiến lược tổng thể
 
 ### ❌ Không làm
