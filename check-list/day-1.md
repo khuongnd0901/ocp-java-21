@@ -14,25 +14,25 @@
 
 ## 🟢 DAY 1 – Hiểu cuộc chơi
 
-### ☐ Việc cần làm
+### ☑ Việc cần làm
 
-* ☐ Mở syllabus chính thức 1Z0-830
-* ☐ Đọc:
+* ☑ Mở syllabus chính thức 1Z0-830
+* ☑ Đọc:
 
-    * Số câu
-    * Thời gian
+    * Số câu: 50 câu
+    * Thời gian: 120 phút
     * Format đề
-* ☐ Lướt danh sách **chủ đề chính** (chỉ đọc tiêu đề)
+* ☑ Lướt danh sách **chủ đề chính** (chỉ đọc tiêu đề)
 
-### ☐ Việc KHÔNG làm
+### ☑ Việc KHÔNG làm
 
-* ☐ Không học Java
-* ☐ Không ghi chép chi tiết
+* ☑ Không học Java
+* ☑ Không ghi chép chi tiết
 
 ### 🎯 Output cuối ngày
 
-* ☐ Hiểu: **OCP = đọc code + rule Java**, không phải lý thuyết
-* ☐ Biết Level 1 gồm: **Generics – Concurrency – Stream**
+* ☑ Hiểu: **OCP = đọc code + rule Java**, không phải lý thuyết
+* ☑ Biết Level 1 gồm: **Generics – Concurrency – Stream**
 
 ---
 
