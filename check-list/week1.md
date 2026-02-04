@@ -46,6 +46,7 @@
     * Data Types
     * Control Flow
 * ☐ Xem ở tốc độ **x1.5 – x2**
+format too long keep lern not done
 
 ### ☐ Việc KHÔNG làm
 
